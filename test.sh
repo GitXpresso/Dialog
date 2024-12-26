@@ -20,7 +20,7 @@ do
             
         2)
             echo "You've selected LinuxServer"
-            curl -fsSL https://bit.ly/LServerSH | bash
+            curl -fsSL https://bit.ly/LinuxServerSH | bash
             ;;
         3)
             echo "Youve Pick other options"
