@@ -14,7 +14,7 @@ do
             bash 
         2)
             echo "You've selected LinuxServer"
-            cd /workspaces/ubuntu-vnc-xfce/clodsh/LinuxServer
+            
             ;;
         3)
             echo "Youve Pick other options"
