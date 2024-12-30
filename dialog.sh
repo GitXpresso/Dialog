@@ -3,7 +3,7 @@ cmd=(dialog --separate-output --checklist "Select options:" 22 76 16)
 options=(1 "LinuxServer" off    # any option can be set to default to "on"
          2 "Jlesage" off
          3 "Other" off
-         4 "Exit" off)
+         4 "Exit" off
 choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
 clear
 for choice in $choices

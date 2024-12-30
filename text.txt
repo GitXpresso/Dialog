@@ -1,0 +1,1 @@
+ docker run -p 6079:79 -p 6080:80 -e USER=lubuntu -v /dev/shm:/dev/shm --name=lxqt dorowu/ubuntu-desktop-lxde-vnc:focal-lxqt
